@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54639" started-at="2020-05-28T02:37:59Z" finished-at="2020-05-28T02:38:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54639" started-at="2020-05-28T02:37:59Z" finished-at="2020-05-28T02:38:54Z">
+      <class name="com.ScreenRecorder.VideoRecoder_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ScreenRecorder.VideoRecoder_Test@192b07fd]" name="setup" is-config="true" duration-ms="30848" started-at="2020-05-28T08:37:59Z" finished-at="2020-05-28T08:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLinks()[pri:0, instance:com.ScreenRecorder.VideoRecoder_Test@192b07fd]" name="verifyLinks" duration-ms="12459" started-at="2020-05-28T08:38:30Z" finished-at="2020-05-28T08:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ScreenRecorder.VideoRecoder_Test@192b07fd]" name="tearDown" is-config="true" duration-ms="11199" started-at="2020-05-28T08:38:42Z" finished-at="2020-05-28T08:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ScreenRecorder.VideoRecoder_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

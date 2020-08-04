@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="319" started-at="2020-05-12T16:06:49Z" finished-at="2020-05-12T16:06:49Z">
+    <groups>
+      <group name="orderBo">
+        <method signature="TestOrder.testFindOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testFindOrder" class="com.TestNG_MultipleTest.TestOrder"/>
+        <method signature="TestOrder.testMakeEmptyOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testMakeEmptyOrder" class="com.TestNG_MultipleTest.TestOrder"/>
+        <method signature="TestOrder.testMakeOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testMakeOrder" class="com.TestNG_MultipleTest.TestOrder"/>
+        <method signature="TestOrder.testUpdateOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testUpdateOrder" class="com.TestNG_MultipleTest.TestOrder"/>
+      </group> <!-- orderBo -->
+      <group name="save">
+        <method signature="TestOrder.testMakeEmptyOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testMakeEmptyOrder" class="com.TestNG_MultipleTest.TestOrder"/>
+        <method signature="TestOrder.testMakeOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testMakeOrder" class="com.TestNG_MultipleTest.TestOrder"/>
+      </group> <!-- save -->
+      <group name="brokenTests">
+        <method signature="TestDatabase.testConnectMySQL()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectMySQL" class="com.TestNG_MultipleTest.TestDatabase"/>
+      </group> <!-- brokenTests -->
+      <group name="db-nosql">
+        <method signature="TestDatabase.testConnectMongoDB()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectMongoDB" class="com.TestNG_MultipleTest.TestDatabase"/>
+      </group> <!-- db-nosql -->
+      <group name="db">
+        <method signature="TestDatabase.testConnectMsSQL()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectMsSQL" class="com.TestNG_MultipleTest.TestDatabase"/>
+        <method signature="TestDatabase.testConnectMySQL()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectMySQL" class="com.TestNG_MultipleTest.TestDatabase"/>
+        <method signature="TestDatabase.testConnectOracle()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectOracle" class="com.TestNG_MultipleTest.TestDatabase"/>
+      </group> <!-- db -->
+    </groups>
+    <test name="order" duration-ms="104" started-at="2020-05-12T16:06:49Z" finished-at="2020-05-12T16:06:49Z">
+      <class name="com.TestNG_MultipleTest.TestConfig">
+        <test-method status="PASS" signature="testBeforeTest()[pri:0, instance:com.TestNG_MultipleTest.TestConfig@5ec0a365]" name="testBeforeTest" is-config="true" duration-ms="1" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="testAfterTest()[pri:0, instance:com.TestNG_MultipleTest.TestConfig@5ec0a365]" name="testAfterTest" is-config="true" duration-ms="9" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterTest -->
+      </class> <!-- com.TestNG_MultipleTest.TestConfig -->
+      <class name="com.TestNG_MultipleTest.TestOrder">
+        <test-method status="PASS" signature="testFindOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testFindOrder" duration-ms="11" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOrder -->
+        <test-method status="PASS" signature="testMakeEmptyOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testMakeEmptyOrder" duration-ms="6" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMakeEmptyOrder -->
+        <test-method status="PASS" signature="testMakeOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testMakeOrder" duration-ms="5" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMakeOrder -->
+        <test-method status="PASS" signature="testUpdateOrder()[pri:0, instance:com.TestNG_MultipleTest.TestOrder@4fe3c938]" name="testUpdateOrder" duration-ms="6" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateOrder -->
+      </class> <!-- com.TestNG_MultipleTest.TestOrder -->
+    </test> <!-- order -->
+    <test name="database" duration-ms="55" started-at="2020-05-12T16:06:49Z" finished-at="2020-05-12T16:06:49Z">
+      <class name="com.TestNG_MultipleTest.TestConfig">
+        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:com.TestNG_MultipleTest.TestConfig@eec5a4a]" name="testBeforeSuite" is-config="true" duration-ms="31" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method status="PASS" signature="testBeforeTest()[pri:0, instance:com.TestNG_MultipleTest.TestConfig@eec5a4a]" name="testBeforeTest" is-config="true" duration-ms="1" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="testAfterTest()[pri:0, instance:com.TestNG_MultipleTest.TestConfig@eec5a4a]" name="testAfterTest" is-config="true" duration-ms="1" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterTest -->
+        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:com.TestNG_MultipleTest.TestConfig@eec5a4a]" name="testAfterSuite" is-config="true" duration-ms="0" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterSuite -->
+      </class> <!-- com.TestNG_MultipleTest.TestConfig -->
+      <class name="com.TestNG_MultipleTest.TestDatabase">
+        <test-method status="PASS" signature="testConnectMongoDB()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectMongoDB" duration-ms="5" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMongoDB -->
+        <test-method status="PASS" signature="testConnectMsSQL()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectMsSQL" duration-ms="6" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMsSQL -->
+        <test-method status="PASS" signature="testConnectMySQL()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectMySQL" duration-ms="3" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMySQL -->
+        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:com.TestNG_MultipleTest.TestDatabase@2b2948e2]" name="testConnectOracle" duration-ms="8" started-at="2020-05-12T22:06:49Z" finished-at="2020-05-12T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectOracle -->
+      </class> <!-- com.TestNG_MultipleTest.TestDatabase -->
+    </test> <!-- database -->
+  </suite> <!-- Suite -->
+</testng-results>
