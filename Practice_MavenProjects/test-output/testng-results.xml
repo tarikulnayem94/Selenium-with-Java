@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21438" started-at="2020-07-26T18:49:01Z" finished-at="2020-07-26T18:49:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21438" started-at="2020-07-26T18:49:01Z" finished-at="2020-07-26T18:49:22Z">
+      <class name="com.TestNG.BasicTestNG">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.TestNG.BasicTestNG@668bc3d5]" name="beforeTest" is-config="true" duration-ms="22" started-at="2020-07-27T00:49:01Z" finished-at="2020-07-27T00:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.TestNG.BasicTestNG@668bc3d5]" name="BeforeClass" is-config="true" duration-ms="4985" started-at="2020-07-27T00:49:01Z" finished-at="2020-07-27T00:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.TestNG.BasicTestNG@668bc3d5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-27T00:49:06Z" finished-at="2020-07-27T00:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BasicTest()[pri:0, instance:com.TestNG.BasicTestNG@668bc3d5]" name="BasicTest" duration-ms="1560" started-at="2020-07-27T00:49:06Z" finished-at="2020-07-27T00:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.TestNG.BasicTestNG@668bc3d5]" name="afterMethod" is-config="true" duration-ms="455" started-at="2020-07-27T00:49:08Z" finished-at="2020-07-27T00:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.TestNG.BasicTestNG@668bc3d5]" name="AfterClass" is-config="true" duration-ms="10001" started-at="2020-07-27T00:49:08Z" finished-at="2020-07-27T00:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.TestNG.BasicTestNG@668bc3d5]" name="AfterTest" is-config="true" duration-ms="4383" started-at="2020-07-27T00:49:18Z" finished-at="2020-07-27T00:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.TestNG.BasicTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
