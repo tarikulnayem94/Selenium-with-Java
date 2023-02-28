@@ -34,13 +34,13 @@ public class ActionClass_DropDown {
 		driver.navigate().to("https://www.cricbuzz.com/");
 		System.out.println(driver.getTitle());
 
-        WebElement team = driver.findElement(By.cssSelector("#teamDropDown > a"));
+                WebElement team = driver.findElement(By.cssSelector("#teamDropDown > a"));
 		
 		action.moveToElement(team).perform();
 		team.sendKeys(Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN);
 		Thread.sleep(2000);
 		WebElement targetElement2 = driver.findElement(By.cssSelector("#teamDropDown > nav > div > div:nth-child(1) > a:nth-child(5)"));
-//      targetElement2.click();
+//       targetElement2.click();
 		action.click(targetElement2).perform();
 		System.out.println(driver.getTitle());
 
