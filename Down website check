@@ -1,0 +1,68 @@
+package login;
+
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class check_domain {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir") + "\\src\\test\\resources\\chrome130\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+
+		// URL to check
+		String url = "https://bangladesh.gov.bd/";
+
+		try {
+			driver.get(url);
+
+			// Check for common indicators of a down site
+			String pageSource = driver.getPageSource();
+			if (pageSource.contains("This site can’t be reached") 
+					|| pageSource.contains("ERR_CONNECTION_TIMED_OUT")
+					|| pageSource.contains("DNS_PROBE_FINISHED_NXDOMAIN") 
+					|| driver.getTitle().isEmpty()) 
+			{
+				System.out.println("The URL " + url + " is down.");
+			} 
+			
+			else 	
+			{
+				System.out.println("The URL " + url + " is up.");
+			}
+			
+		} 
+		
+//		catch (TimeoutException e) 
+//		{
+//			System.out.println("The URL " + url + " is down (timeout).");
+//		} catch (WebDriverException e)
+//		
+//		{
+//			System.out.println("The URL " + url + " is down (WebDriverException).");
+//
+//		} catch (Exception e) 
+//		
+//		{
+//			System.out.println("Error setting up WebDriver: " + e.getMessage());
+//		} 
+	
+		finally 
+		
+		{
+			if (driver != null) 
+			{
+				driver.quit();
+			}
+		}
+
+	}
+
+}
